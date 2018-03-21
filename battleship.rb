@@ -131,11 +131,7 @@ end
 # returns true if shot is a hit
 def hit? which_board, coordinates
   shot(which_board, coordinates)
-  if which_board["#{coordinates}"] =~ /[ABCDSX]/
-    puts 'hit'
-  else
-    puts 'miss'
-  end
+  (which_board["#{coordinates}"] =~ /[ABCDSX]/) ? (puts 'hit') : (puts 'miss')
   true if (which_board["#{coordinates}"] =~ /[ABCDSX]/)
 end
 
