@@ -178,7 +178,6 @@ def narrator(script_line_num)
     '9' => "your opponent #{@cpu_country} has set up their board",
     '10' => "#{@user_country} and #{@cpu_country} are at war!",
     '13' => "where will you fire?",
-    '15' => "miss",
     '16' => "here is the board",
     '17' => "it is #{@cpu_country}'s turn",
     '18' => "it is #{@user_country}'s turn",
@@ -282,7 +281,7 @@ end
 
 def declare_winner
   if @player_sunk_ships.count == 5
-    puts "#{@user_country} wins! Player 1 wins! "
+    puts "#{@user_country} wins! Player wins! "
     @game_end = true
   elsif @computer_sunk_ships.count == 5
     puts "#{@cpu_country} wins! Computer wins!"
