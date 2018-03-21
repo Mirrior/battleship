@@ -1,7 +1,7 @@
 @computer = { "A1" => "~", "A2" => "~", "A3" => "~", "A4" => "~", "A5" => "~", "A6" => "~", "A7" => "~", "A8" => "~", "A9" => "~", "A10" => "~", "B1" => "~", "B2" => "~", "B3" => "~", "B4" => "~", "B5" => "~", "B6" => "~", "B7" => "~", "B8" => "~", "B9" => "~", "B10" => "~", "C1" => "~", "C2" => "~", "C3" => "~", "C4" => "~", "C5" => "~", "C6" => "~", "C7" => "~", "C8" => "~", "C9" => "~", "C10" => "~", "D1" => "~", "D2" => "~", "D3" => "~", "D4" => "~", "D5" => "~", "D6" => "~", "D7" => "~", "D8" => "~", "D9" => "~", "D10" => "~", "E1" => "~", "E2" => "~", "E3" => "~", "E4" => "~", "E5" => "~", "E6" => "~", "E7" => "~", "E8" => "~", "E9" => "~", "E10" => "~","F1" => "~", "F2" => "~", "F3" => "~", "F4" => "~", "F5" => "~", "F6" => "~", "F7" => "~", "F8" => "~", "F9" => "~", "F10" => "~", "G1" => "~", "G2" => "~", "G3" => "~", "G4" => "~", "G5" => "~", "G6" => "~", "G7" => "~", "G8" => "~", "G9" => "~", "G10" => "~", "H1" => "~", "H2" => "~", "H3" => "~", "H4" => "~", "H5" => "~", "H6" => "~", "H7" => "~", "H8" => "~", "H9" => "~", "H10" => "~", "I1" => "~", "I2" => "~", "I3" => "~", "I4" => "~", "I5" => "~", "I6" => "~", "I7" => "~", "I8" => "~", "I9" => "~", "I10" => "~", "J1" => "~", "J2" => "~", "J3" => "~", "J4" => "~", "J5" => "~", "J6" => "~", "J7" => "~", "J8" => "~", "J9" => "~", "J10" => "~"}
-@shot_board = @computer
-@player = @computer
-@com_shot_board = @computer
+@shot_board = { "A1" => "~", "A2" => "~", "A3" => "~", "A4" => "~", "A5" => "~", "A6" => "~", "A7" => "~", "A8" => "~", "A9" => "~", "A10" => "~", "B1" => "~", "B2" => "~", "B3" => "~", "B4" => "~", "B5" => "~", "B6" => "~", "B7" => "~", "B8" => "~", "B9" => "~", "B10" => "~", "C1" => "~", "C2" => "~", "C3" => "~", "C4" => "~", "C5" => "~", "C6" => "~", "C7" => "~", "C8" => "~", "C9" => "~", "C10" => "~", "D1" => "~", "D2" => "~", "D3" => "~", "D4" => "~", "D5" => "~", "D6" => "~", "D7" => "~", "D8" => "~", "D9" => "~", "D10" => "~", "E1" => "~", "E2" => "~", "E3" => "~", "E4" => "~", "E5" => "~", "E6" => "~", "E7" => "~", "E8" => "~", "E9" => "~", "E10" => "~","F1" => "~", "F2" => "~", "F3" => "~", "F4" => "~", "F5" => "~", "F6" => "~", "F7" => "~", "F8" => "~", "F9" => "~", "F10" => "~", "G1" => "~", "G2" => "~", "G3" => "~", "G4" => "~", "G5" => "~", "G6" => "~", "G7" => "~", "G8" => "~", "G9" => "~", "G10" => "~", "H1" => "~", "H2" => "~", "H3" => "~", "H4" => "~", "H5" => "~", "H6" => "~", "H7" => "~", "H8" => "~", "H9" => "~", "H10" => "~", "I1" => "~", "I2" => "~", "I3" => "~", "I4" => "~", "I5" => "~", "I6" => "~", "I7" => "~", "I8" => "~", "I9" => "~", "I10" => "~", "J1" => "~", "J2" => "~", "J3" => "~", "J4" => "~", "J5" => "~", "J6" => "~", "J7" => "~", "J8" => "~", "J9" => "~", "J10" => "~"}
+@player = { "A1" => "~", "A2" => "~", "A3" => "~", "A4" => "~", "A5" => "~", "A6" => "~", "A7" => "~", "A8" => "~", "A9" => "~", "A10" => "~", "B1" => "~", "B2" => "~", "B3" => "~", "B4" => "~", "B5" => "~", "B6" => "~", "B7" => "~", "B8" => "~", "B9" => "~", "B10" => "~", "C1" => "~", "C2" => "~", "C3" => "~", "C4" => "~", "C5" => "~", "C6" => "~", "C7" => "~", "C8" => "~", "C9" => "~", "C10" => "~", "D1" => "~", "D2" => "~", "D3" => "~", "D4" => "~", "D5" => "~", "D6" => "~", "D7" => "~", "D8" => "~", "D9" => "~", "D10" => "~", "E1" => "~", "E2" => "~", "E3" => "~", "E4" => "~", "E5" => "~", "E6" => "~", "E7" => "~", "E8" => "~", "E9" => "~", "E10" => "~","F1" => "~", "F2" => "~", "F3" => "~", "F4" => "~", "F5" => "~", "F6" => "~", "F7" => "~", "F8" => "~", "F9" => "~", "F10" => "~", "G1" => "~", "G2" => "~", "G3" => "~", "G4" => "~", "G5" => "~", "G6" => "~", "G7" => "~", "G8" => "~", "G9" => "~", "G10" => "~", "H1" => "~", "H2" => "~", "H3" => "~", "H4" => "~", "H5" => "~", "H6" => "~", "H7" => "~", "H8" => "~", "H9" => "~", "H10" => "~", "I1" => "~", "I2" => "~", "I3" => "~", "I4" => "~", "I5" => "~", "I6" => "~", "I7" => "~", "I8" => "~", "I9" => "~", "I10" => "~", "J1" => "~", "J2" => "~", "J3" => "~", "J4" => "~", "J5" => "~", "J6" => "~", "J7" => "~", "J8" => "~", "J9" => "~", "J10" => "~"}
+@com_shot_board = { "A1" => "~", "A2" => "~", "A3" => "~", "A4" => "~", "A5" => "~", "A6" => "~", "A7" => "~", "A8" => "~", "A9" => "~", "A10" => "~", "B1" => "~", "B2" => "~", "B3" => "~", "B4" => "~", "B5" => "~", "B6" => "~", "B7" => "~", "B8" => "~", "B9" => "~", "B10" => "~", "C1" => "~", "C2" => "~", "C3" => "~", "C4" => "~", "C5" => "~", "C6" => "~", "C7" => "~", "C8" => "~", "C9" => "~", "C10" => "~", "D1" => "~", "D2" => "~", "D3" => "~", "D4" => "~", "D5" => "~", "D6" => "~", "D7" => "~", "D8" => "~", "D9" => "~", "D10" => "~", "E1" => "~", "E2" => "~", "E3" => "~", "E4" => "~", "E5" => "~", "E6" => "~", "E7" => "~", "E8" => "~", "E9" => "~", "E10" => "~","F1" => "~", "F2" => "~", "F3" => "~", "F4" => "~", "F5" => "~", "F6" => "~", "F7" => "~", "F8" => "~", "F9" => "~", "F10" => "~", "G1" => "~", "G2" => "~", "G3" => "~", "G4" => "~", "G5" => "~", "G6" => "~", "G" => "~", "G8" => "~", "G9" => "~", "G10" => "~", "H1" => "~", "H2" => "~", "H3" => "~", "H4" => "~", "H5" => "~", "H6" => "~", "H7" => "~", "H8" => "~", "H9" => "~", "H10" => "~", "I1" => "~", "I2" => "~", "I3" => "~", "I4" => "~", "I5" => "~", "I6" => "~", "I7" => "~", "I8" => "~", "I9" => "~", "I10" => "~", "J1" => "~", "J2" => "~", "J3" => "~", "J4" => "~", "J5" => "~", "J6" => "~", "J7" => "~", "J8" => "~", "J9" => "~", "J10" => "~"}
 
 # Computer sets up their board
 def comp_select
@@ -130,18 +130,22 @@ end
 
 # returns true if shot is a hit
 def hit? which_board, coordinates
-  shot(which_board, coordinates) 
-  comp_input coordinates if which_board == @player
-  which_board["#{coordinates}"].match("X") ? (puts "hit") : (puts "miss")
-  true if which_board["#{coordinates}"] =~ /[X]/
+  shot(which_board, coordinates)
+  if which_board["#{coordinates}"] =~ /[ABCDSX]/
+    puts 'hit'
+  else
+    puts 'miss'
+  end
+  true if (which_board["#{coordinates}"] =~ /[ABCDSX]/)
 end
 
 def shot which_board, coordinates
   if which_board == @computer
     @computer["#{coordinates}"] =~ /[ABCDS]/ ? @shot_board["#{coordinates}"] = "X" : @shot_board["#{coordinates}"] = "O"
     @computer["#{coordinates}"] =~ /[ABCDS]/ ? @computer["#{coordinates}"] = "X" : @computer["#{coordinates}"] = "O"
+  else
+    which_board["#{coordinates}"] =~ /[ABCDS]/ ? which_board["#{coordinates}"] = "X" : which_board["#{coordinates}"] = "O"
   end
-  which_board["#{coordinates}"] =~ /[ABCDS]/ ? which_board["#{coordinates}"] = "X" : which_board["#{coordinates}"] = "O"
 end
 
 
@@ -211,14 +215,14 @@ end
 
 def which_sunk result_of_attempt
   ship_names = ["A", "B", "C", "D", "S"]
-  ships = {  "A" => "Aircraft Carrier", "B" => "Battleship", "C" => "Carrier","D" => "Destroyer", "S" => "Submarine" }
+  ships = {  "A" => "Aircraft Carrier", "B" => "Battleship", "C" => "Cruiser","D" => "Destroyer", "S" => "Submarine" }
   i = 0
   c = 0
   if result_of_attempt == true
     5.times do
       if @player.has_value?(ship_names[i]) == false && @player_sunk_ships.include?(ships.fetch_values(ship_names[i])) == false
         @player_sunk_ships << ships.fetch_values(ship_names[i])
-        @player_current_sunk_ship << ships.fetch_values(ship_names[i])
+        @player_current_sunk_ship = ships.fetch_values(ship_names[i])
         puts "The computer sunk a ship:"
         puts @player_current_sunk_ship
         break
@@ -228,7 +232,7 @@ def which_sunk result_of_attempt
     5.times do
       if @computer.has_value?(ship_names[c]) == false && @computer_sunk_ships.include?(ships.fetch_values(ship_names[c])) == false
         @computer_sunk_ships << ships.fetch_values(ship_names[c])
-        @computer_current_sunk_ship << ships.fetch_values(ship_names[c])
+        @computer_current_sunk_ship = ships.fetch_values(ship_names[c])
         puts "You sunk a ship!:"
         puts @computer_current_sunk_ship
         break
@@ -246,33 +250,34 @@ def player_select
   while counter <= loopcount
     system "clear"
     show_board @player
-  @choosing = 'Aircraft Carier' if counter == 1
-  @choosing = 'Battleship' if counter == 2
-  @choosing = 'Cruiser' if counter == 3
-  @choosing = 'Submarine' if counter == 4
-  @choosing = 'Destroyer' if counter == 5
+    @choosing = 'Aircraft Carier' if counter == 1
+    @choosing = 'Battleship' if counter == 2
+    @choosing = 'Cruiser' if counter == 3
+    @choosing = 'Submarine' if counter == 4
+    @choosing = 'Destroyer' if counter == 5
 
-  selections = 5 if counter == 1
-  selections = 4 if counter == 2
-  selections = 3 if counter == 3
-  selections = 3 if counter == 4
-  selections = 2 if counter == 5
+    selections = 5 if counter == 1
+    selections = 4 if counter == 2
+    selections = 3 if counter == 3
+    selections = 3 if counter == 4
+    selections = 2 if counter == 5
 
-  letter = "A" if counter == 1
-  letter = "B" if counter == 2
-  letter = "C" if counter == 3
-  letter = "S" if counter == 4
-  letter = "D" if counter == 5
+    letter = "A" if counter == 1
+    letter = "B" if counter == 2
+    letter = "C" if counter == 3
+    letter = "S" if counter == 4
+    letter = "D" if counter == 5
 
-  select_counter = 0
-    while select_counter < selections
-      puts "Select a location for your #{@choosing}"
-      @choice = input
-      @player["#{@choice}"] = letter
-      show_board @player
-    select_counter = select_counter + 1
-    end
-  counter = counter + 1
+    select_counter = 0
+      while select_counter < selections
+        puts "Select a location for your #{@choosing}"
+        @choice = input
+
+        @player["#{@choice}"] = letter
+        show_board @player
+      select_counter = select_counter + 1
+      end
+    counter = counter + 1
   end
 
 end
